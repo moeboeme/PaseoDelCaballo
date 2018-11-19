@@ -12,11 +12,9 @@ public class TestPaseoDelCaballo {
 		
 		for ( int i = 1 ; i < 64 ; i++)
 		{
-			System.out.println(caballo.imprimirPosicion());
 			caballo.realizaElMejorMovimiento();
 		}
 		
 		System.out.println(caballo.getTableroHistorial());
-		System.out.println(caballo.getTableroAccesibilidad());
 	}
 }

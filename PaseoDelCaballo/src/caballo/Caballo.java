@@ -110,7 +110,6 @@ public class Caballo {
 	
 	public void moverCaballoSiEsPosible( int tipoDeMovimiento )
 	{
-		System.out.println("intentando hacer el movimiento: "+tipoDeMovimiento);
 		if ( posicion.esMovimientoValido(tipoDeMovimiento) ) 
 		{
 			posicion.hacerMovimientoSiEsPosible(tipoDeMovimiento);
